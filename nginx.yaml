@@ -1,5 +1,5 @@
 - hosts: myservers
-  become: yes
+  become: no
   tasks:
     - name: Install Nginx
       apt:
